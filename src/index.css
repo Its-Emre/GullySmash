@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Archivo", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --color-ink: #0c0e12;
+  --color-panel: #14171f;
+  --color-gold: #f5b921;
+  --color-pitch: #2e7d4f;
+}
+
+html,
+body {
+  background: #0c0e12;
+  color: #f3f4f6;
+  font-family: var(--font-body);
+  overscroll-behavior: none;
+}
+
+canvas.game-canvas {
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}

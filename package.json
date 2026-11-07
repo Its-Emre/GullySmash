@@ -1,0 +1,1 @@
+{"dependencies":{"react":"^18.3.1","react-dom":"^18.3.1"},"devDependencies":{"@tailwindcss/vite":"^4.0.0","@vitejs/plugin-react":"^4.3.4","tailwindcss":"^4.0.0","vite":"^6.0.7"},"name":"gullysmash","private":true,"scripts":{"build":"vite build","dev":"vite","preview":"vite preview","test":"node src/game/engine.test.mjs"},"type":"module","version":"1.0.0"}
