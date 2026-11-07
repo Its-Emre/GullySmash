@@ -152,7 +152,7 @@ export default function App() {
         </div>
 
         <button
-          onClick={startGame}
+          onClick={() => startGame()}
           className="font-display mx-2 mt-6 w-[calc(100%-1rem)] rounded-2xl bg-[#f5b921] py-4 text-xl font-black text-black shadow-[0_10px_30px_rgba(245,185,33,0.35)] active:scale-[0.98]"
         >
           START CHASE 🏏
